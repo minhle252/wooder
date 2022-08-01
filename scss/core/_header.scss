@@ -1,0 +1,46 @@
+.header {
+    max-width: 1600px;
+    height: 80px;
+    background-color: black;
+
+    .container-fluid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        max-width: 1600px;
+        height: 80px;
+    }
+    &__menu {
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: white;
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-family: "pb";
+                }
+                margin: 15px 36px;
+                font-size: 15px;
+                font-family: "pb";
+                text-decoration: none;
+            }
+            :hover {
+                color: yellow;
+            }
+        }
+        &__lang {
+            position: relative;
+            &-current {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}

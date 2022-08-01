@@ -1,0 +1,276 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+.slider {
+  background-image: url("img/design.jpg");
+  background-size: 100% 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.slider__wrap__item__text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  max-width: 1600px;
+  height: 80px;
+  background-color: black;
+}
+.header .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  max-width: 1600px;
+  height: 80px;
+}
+.header__menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+}
+.header__menu ul li {
+  margin: 15px 36px;
+  font-size: 15px;
+  font-family: "pb";
+  text-decoration: none;
+}
+.header__menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "pb";
+}
+.header__menu ul :hover {
+  color: yellow;
+}
+.header__menu__lang {
+  position: relative;
+}
+.header__menu__lang-current {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: block;
+  max-width: 100% !important;
+}
+
+.container-fluid {
+  max-width: 100% !important;
+  padding: 0 2%;
+  justify-content: space-between !important;
+}
+.container-fluid .header__lang .header__lang-select {
+  display: none;
+}
+.container-fluid .header__lang:hover .header__lang-select {
+  display: block;
+}
+
+.slider {
+  max-width: 100% !important;
+}
+.slider .slider__wrap .slider__wrap-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .slider__wrap .slider__wrap-item .text {
+  position: absolute;
+  text-align: center;
+}
+.slider .slider__wrap .slider__wrap-item .text h2 {
+  color: #bea67c;
+  font-size: 4.5em;
+  font-family: "pb";
+  line-height: 1.5em;
+}
+.slider .slider__wrap .slider__wrap-item .text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fff 1px solid;
+  color: #fff;
+  max-width: 80%;
+  padding: 10px 0;
+  margin: 0 10%;
+  font-size: 1em;
+  font-family: "pb";
+  text-decoration: none;
+}
+.slider .slider__wrap .slider__wrap-item .text a img {
+  width: 20%;
+  padding-left: 20px;
+}
+.slider .slider__wrap .container-fluid {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 96%;
+}
+.slider .slider__wrap .container-fluid .number {
+  color: #bea67c;
+  display: flex;
+  font-family: "pb";
+  font-size: 2em;
+}
+.slider .slider__wrap .container-fluid .midbody .mouse {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+.slider .slider__wrap .container-fluid .midbody .iconarrow {
+  margin-top: 40px;
+  transform: rotate(90deg);
+}
+.slider .slider__wrap .container-fluid .last {
+  display: flex;
+}
+.slider .slider__wrap .container-fluid .last div {
+  border: #fff 1px solid;
+  padding: 10px 5px;
+}
+.slider .slider__wrap .container-fluid .last .btn-left {
+  background-color: #bea67c;
+}
+.slider .slider__wrap .container-fluid .last .btn-left .btn-left__img {
+  transform: rotate(180deg);
+}
+.slider-img {
+  width: 100% !important;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css..map */

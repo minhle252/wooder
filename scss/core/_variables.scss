@@ -1,0 +1,43 @@
+// *primary colors*
+$white-cl: #fff;
+$black-cl:#000;
+
+$yellow-cl:#bea67c;
+ 
+// global text color
+$text-cl:#010101;
+$gray-cl:#464646;
+
+// global-bg-cl
+$main-bg-cl:#fff;
+
+// time-transition
+$t:0.3s;
+$cubic: cubic-bezier(0.84,0.13,0.33,0.97);
+// font families
+$font-stack:"Open Sans",san-serif;
+$lh-text:normal;
+$fz-text-m:16px;
+$lh-text-m:normal;
+
+// Grid -media quries breakpoint
+$xxs-min:568px;
+$xs-min:768px;
+$sm-min:992px;
+$md-min:1200px;
+$lg-min:1600px;
+
+$xxs-max: ($xxs-min - 1);
+$xs-max:($xs-min - 1);
+$sm-min:($sm-min - 1);
+$md-min:($md-min - 1);
+$lg-min:($lg-min - 1);
+
+// boxed layouts
+$max-width:1920px;
+$container-max-width:$max-width;
+$container-width:1010px;
+
+
+
+
